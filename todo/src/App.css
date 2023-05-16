@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.box {
+    width: 500px;
+    height: 90vh;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 10px 5px #a2a2a2;
+    position: relative;
+}
+
+.header {
+    height: 100px;
+    padding: 0 20px;
+    display: flex;
+    box-sizing: border-box;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.morning {
+    background-image: url('./imgaes/1649146354_52-vsegda-pomnim-com-p-priroda-utrom-foto-59.jpg');
+}
+
+
+.afternoon {
+    background-image: url('./imgaes/afternoon.jpeg');
+}
+
+
+.evening {
+    background-image: url('./imgaes/evening.jpg');
+}
+
+
+.hight {
+    background-image: url('./imgaes/night.jpeg');
+}
+
+.header h1 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    
+}
+
+.form {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+    border-bottom: 3px solid rgb(211, 211, 211);
+    transition: 1s;
+}
+
+.form input::placeholder {
+    font-weight: 600;
+    font-size: 120%;
+
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #db2777;
+    transition: 1s;
+}
+
+
+.completed label {
+    text-decoration: line-through #0075ff;
+    color: #0075ff;
+}
+
+
+.todos {
+    padding: 0 20px;
+    height: 550px;
+    overflow: scroll;
+}
+
+.todo {
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.icon {
+    float: right;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    background: inherit;
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(112,112,112);
+    background-color: #e2e2e2;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.footer span {
+    display: flex;
+    gap: 20px;
+}
+
+.filterButton {
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.filterButton:hover {
+    transform: scale(1.05);
+}
+
+.all {
+    background-color: orange;
+    color: white;
+}
+
+
+.completed {
+    background-color: green;
+    color: white;
+}
+
+.open {
+    background-color: blue;
+    color: white;
+}
